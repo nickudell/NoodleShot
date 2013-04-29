@@ -1,0 +1,19 @@
+{
+	"spriteParams": {
+		"image": "images/laserGreenShot.png",
+		"x": 0,
+		"y": 0,
+		"width": 56,
+		"height": 54,
+		"centerX": 28,
+		"centerY": 27
+	},
+	"x": 0,
+	"y": 0,
+	"width": 56,
+	"height": 54,
+	"xVelocity": 0,
+	"yVelocity": 0,
+	"life": 100,
+	"fadeOut": true
+}

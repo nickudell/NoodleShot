@@ -1,0 +1,15 @@
+{
+	"spriteParams": {
+		"image": "images/laserRed.png",
+		"x": 0,
+		"y": 0,
+		"width": 9,
+		"height": 33,
+		"centerX": 4,
+		"centerY": 16
+	},
+	"damage": 15,
+	"speed": 5,
+	"width": 9,
+	"height": 33
+}

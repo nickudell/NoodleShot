@@ -1,0 +1,20 @@
+{
+	"name": "AsteroidBig",
+	"spriteParams": {
+		"image": "images/meteorBig.png",
+		"x": 0,
+		"y": 0,
+		"width": 136,
+		"height": 111,
+		"centerX": 68,
+		"centerY": 55
+	},
+	"x": 0,
+	"y": 0,
+	"width": 136,
+	"height": 11,
+	"xVelocity": 0,
+	"yVelocity": 0.03,
+	"health": 100,
+	"scoreWorth": 1
+}

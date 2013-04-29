@@ -1,29 +1,19 @@
 {
 	"name": "Cannon Fodder",
-	"animParams": {
-		"x": 0,
-		"y": 0,
-		"width": 126,
-		"height": 25,
-		"frameCount": 6,
-		"columnCount": 6,
-		"msPerFrame": 200,
-		"startingFrame": 0
-	},
 	"spriteParams": {
-		"image": "images/beetle.png",
+		"image": "images/enemyUFO.png",
 		"x": 0,
 		"y": 0,
-		"width": 21,
-		"height": 25,
-		"centerX": 10,
-		"centerY": 12
+		"width": 91,
+		"height": 91,
+		"centerX": 45,
+		"centerY": 45
 	},
-	
+	"weapons": [],
 	"x": 0,
 	"y": 0,
-	"width": 21,
-	"height": 25,
+	"width": 91,
+	"height": 91,
 	"xVelocity": 0,
 	"yVelocity": 0.05,
 	"scoreWorth": 5

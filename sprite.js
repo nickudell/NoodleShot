@@ -39,4 +39,9 @@ function Sprite()
     height);
     //context.restore();
   };
+
+  this.update = function(deltaTime)
+  {
+    //do nothing, exists for compatibility with animated_sprite.
+  }
 }

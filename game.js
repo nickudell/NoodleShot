@@ -55,22 +55,22 @@ function Player()
 		image: assets.images.players[0],
 		x: 0,
 		y: 0,
-		width: 32,
-		height: 32,
-		centerX: 0,
-		centerY: 0
+		width: 99,
+		height: 75,
+		centerX: 49,
+		centerY: 37
 	};
 
 	this.sprite = new Sprite();
 	this.sprite.setUp(SPRITE.image, SPRITE);
 
 	this.color = "#00A";
-	this.width = 32;
-	this.height = 32;
-	this.x = CANVAS_WIDTH / 2 - 16;
-	this.y = CANVAS_HEIGHT - gui.height - 32;
-	this.weapons = [new Weapon(4, 0, 500, -1, 30, 3000),
-                    new Weapon(28, 0, 300, -1, 10, 3000)];
+	this.width = 99;
+	this.height = 75;
+	this.x = CANVAS_WIDTH / 2 - this.width;
+	this.y = CANVAS_HEIGHT - gui.height - this.height - 32;
+	this.weapons = [new Weapon(0, 36, 500, -1, 30, 3000),
+                    new Weapon(this.width - 6, 36, 300, -1, 10, 3000)];
 
 	this.active = true;
 	//draw the player as a blue square
@@ -221,13 +221,12 @@ function Projectile(x, y, speed)
 {
 	var active = true;
 
-	this.x = x;
-	this.y = y;
-
 	this.xVelocity = 0;
 	this.yVelocity = -speed;
-	this.width = 3;
-	this.height = 3;
+	this.width = 16;
+	this.height = 16;
+	this.x = x - this.width / 2;
+	this.y = y - this.height / 2;
 	this.colour = "#FFFF00";
 
 	var that = this;

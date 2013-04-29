@@ -1,0 +1,21 @@
+{
+	"spriteParams": {
+		"image": "images/enemyUFO.png",
+		"x": 0,
+		"y": 0,
+		"width": 91,
+		"height": 91,
+		"centerX": 45,
+		"centerY": 45
+	},
+	"projectile": "redlaser.json",
+	"muzzleFlash": "pewRed.json",
+	"msPerFire": 1500,
+	"ammo": 1000,
+	"ammoCapacity": 1000,
+	"ammoPerShot": 3,
+	"clipSize": 18,
+	"msPerReload": 2500,
+	"aimType": "DUMB",
+	"spread": 0
+}

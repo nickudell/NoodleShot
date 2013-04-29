@@ -1,0 +1,20 @@
+{
+	"name": "Asteroid",
+	"spriteParams": {
+		"image": "images/meteorSmall.png",
+		"x": 0,
+		"y": 0,
+		"width": 44,
+		"height": 42,
+		"centerX": 22,
+		"centerY": 21
+	},
+	"x": 0,
+	"y": 0,
+	"width": 98,
+	"height": 50,
+	"xVelocity": 0,
+	"yVelocity": 0.1,
+	"health": 10,
+	"scoreWorth": 1
+}
