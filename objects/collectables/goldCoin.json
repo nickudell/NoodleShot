@@ -1,0 +1,28 @@
+{
+	"animParams": {
+		"x": 0,
+		"y": 0,
+		"width": 256,
+		"height": 32,
+		"frameCount": 8,
+		"columnCount": 8,
+		"msPerFrame": 50,
+		"startingFrame": 0
+	},
+	"spriteParams": {
+		"image": "images/coin_gold.png",
+		"x": 0,
+		"y": 0,
+		"width": 32,
+		"height": 24,
+		"centerX": 16,
+		"centerY": 12
+	},
+	"value": 50,
+	"x": 0,
+	"y": 0,
+	"width": 32,
+	"height": 32,
+	"xVelocity": 0,
+	"yVelocity": 0.125
+}

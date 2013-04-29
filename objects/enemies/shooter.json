@@ -1,0 +1,43 @@
+{
+	"name": "Rifleman",
+	"animParams": {
+		"x": 0,
+		"y": 0,
+		"width": 126,
+		"height": 25,
+		"frameCount": 6,
+		"columnCount": 6,
+		"msPerFrame": 200,
+		"startingFrame": 0
+	},
+	"spriteParams": {
+		"image": "images/beetle.png",
+		"x": 0,
+		"y": 0,
+		"width": 21,
+		"height": 25,
+		"centerX": 10,
+		"centerY": 12
+	},
+	"weapons": [
+	{
+		"sprite": "weapons/shotgun.png",
+		"projectile": "bullet1.json",
+		"msPerFire": 1500,
+		"ammo": 1000,
+		"ammoCapacity": 1000,
+		"ammoPerShot": 3,
+		"clipSize": 18,
+		"msPerReload": 2500,
+		"aimType": "DUMB",
+		"spread": 0.5,
+		}
+    ],
+	"x": 0,
+	"y": 0,
+	"width": 21,
+	"height": 25,
+	"xVelocity": 0,
+	"yVelocity": 0.05,
+	"scoreWorth": 5
+}

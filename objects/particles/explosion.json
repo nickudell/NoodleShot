@@ -1,0 +1,29 @@
+{
+	"animParams": {
+		"x": 0,
+		"y": 0,
+		"width": 1024,
+		"height": 1024,
+		"frameCount": 64,
+		"columnCount": 8,
+		"msPerFrame": 8,
+		"startingFrame": 0
+	},
+	"spriteParams": {
+		"image": "images/boom.png",
+		"x": 0,
+		"y": 0,
+		"width": 128,
+		"height": 128,
+		"centerX": 0,
+		"centerY": 96
+	},
+	"x": 0,
+	"y": 0,
+	"width": 128,
+	"height": 128,
+	"xVelocity": 0,
+	"yVelocity": 0,
+	"life": 500,
+	"fadeOut": true
+}

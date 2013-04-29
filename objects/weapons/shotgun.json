@@ -1,0 +1,41 @@
+{
+	"name": "Shotgun",
+	"unlockCost": 10,
+	"sprite": "weapons/shotgun.png",
+	"projectile": "bullet1.json",
+	"msPerFire": 1500,
+	"ammo": 1000,
+	"ammoCapacity": 1000,
+	"ammoPerShot": 3,
+	"clipSize": 18,
+	"msPerReload": 2500,
+	"aimType": "DUMB",
+	"spread": 0.5,
+	"upgradePaths": [
+	{
+		"name": "Big Bang",
+		"description": "Focus your shotgun's devestation capabilities.",
+		"upgrades": [
+		{
+			"name": "Rocket Man",
+			"property": "projectile",
+			"value": "rocket1.json",
+			"operator": "SET",
+			"maxLevels": "1",
+			"requires": [],
+			"cost": 10000}]},
+	{
+		"name": "Side Swiper",
+		"description": "Why flank the enemy when your bullets can do it for you?",
+		"upgrades": [
+		{
+			"name": "Sawn-off",
+			"property": "spread",
+			"value": "0.15",
+			"operator": "plus",
+			"maxLevels": "5",
+			"requires": [],
+			"cost": 3000}
+        ]}
+    ]
+}
